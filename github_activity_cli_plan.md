@@ -25,10 +25,10 @@ A modular, task-driven roadmap for building a command-line interface (CLI) to fe
 **So that** the application knows which user's activity to retrieve.
 
 #### Micro-Tasks:
-- [ ] **TASK-1.1**: Initialize project repository structure and select runtime environment (Node.js).
-- [ ] **TASK-1.2**: Implement entry point script execution mechanism (`github-activity` executable / bin wrapper).
-- [ ] **TASK-1.3**: Extract `<username>` from standard CLI input parameters (e.g., `process.argv` / `sys.argv`).
-- [ ] **TASK-1.4**: Add parameter validation. Display proper usage instructions (`Usage: github-activity <username>`) and exit gracefully with status code `1` if the argument is missing.
+- [x] **TASK-1.1**: Initialize project repository structure and select runtime environment (Node.js).
+- [x] **TASK-1.2**: Implement entry point script execution mechanism (`github-activity` executable / bin wrapper).
+- [x] **TASK-1.3**: Extract `<username>` from standard CLI input parameters (e.g., `process.argv` / `sys.argv`).
+- [x] **TASK-1.4**: Add parameter validation. Display proper usage instructions (`Usage: github-activity <username>`) and exit gracefully with status code `1` if the argument is missing.
 
 ---
 
