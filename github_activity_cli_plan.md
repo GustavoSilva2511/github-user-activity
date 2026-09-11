@@ -59,11 +59,11 @@ A modular, task-driven roadmap for building a command-line interface (CLI) to fe
 **So that** I can easily digest user activity logs.
 
 #### Micro-Tasks:
-- [ ] **TASK-3.1**: Implement event parser for `PushEvent` — extract commit count and target repository (`Pushed X commits to <repo>`).
-- [ ] **TASK-3.2**: Implement event parser for `IssuesEvent` — identify action state (`Opened`, `Closed`, `Reopened`) and target repository.
-- [ ] **TASK-3.3**: Implement event parser for `WatchEvent` (`Starred <repo>`) and `PullRequestEvent` (`Opened pull request in <repo>`).
-- [ ] **TASK-3.4**: Implement a generic fallback event formatter for unhandled event types (e.g., `ForkEvent`, `CreateEvent`) to prevent execution failures on rare event types.
-- [ ] **TASK-3.5**: Print all parsed log items sequentially to `stdout`.
+- [x] **TASK-3.1**: Implement event parser for `PushEvent` — extract commit count and target repository (`Pushed X commits to <repo>`).
+- [x] **TASK-3.2**: Implement event parser for `IssuesEvent` — identify action state (`Opened`, `Closed`, `Reopened`) and target repository.
+- [x] **TASK-3.3**: Implement event parser for `WatchEvent` (`Starred <repo>`) and `PullRequestEvent` (`Opened pull request in <repo>`).
+- [x] **TASK-3.4**: Implement a generic fallback event formatter for unhandled event types (e.g., `ForkEvent`, `CreateEvent`) to prevent execution failures on rare event types.
+- [x] **TASK-3.5**: Print all parsed log items sequentially to `stdout`.
 
 ---
 
@@ -77,10 +77,10 @@ A modular, task-driven roadmap for building a command-line interface (CLI) to fe
 **So that** I understand why data could not be displayed.
 
 #### Micro-Tasks:
-- [ ] **TASK-4.1**: Detect `HTTP 404 Not Found` response and output user-friendly message (`Error: User '<username>' not found.`).
-- [ ] **TASK-4.2**: Handle rate-limiting status codes (`HTTP 403` / `HTTP 429`) and notify the user about API quota exhaustion.
-- [ ] **TASK-4.3**: Catch network-level failures (DNS resolution failure, timeout, offline connection) and render a clean terminal error message.
-- [ ] **TASK-4.4**: Handle empty API payload responses (when the user exists but has no public event history in the last 90 days).
+- [x] **TASK-4.1**: Detect `HTTP 404 Not Found` response and output user-friendly message (`Error: User '<username>' not found.`).
+- [x] **TASK-4.2**: Handle rate-limiting status codes (`HTTP 403` / `HTTP 429`) and notify the user about API quota exhaustion.
+- [x] **TASK-4.3**: Catch network-level failures (DNS resolution failure, timeout, offline connection) and render a clean terminal error message.
+- [x] **TASK-4.4**: Handle empty API payload responses (when the user exists but has no public event history in the last 90 days).
 
 ---
 
