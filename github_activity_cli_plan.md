@@ -42,10 +42,10 @@ A modular, task-driven roadmap for building a command-line interface (CLI) to fe
 **So that** I retrieve raw activity data without external dependencies (e.g., `axios`, `requests`).
 
 #### Micro-Tasks:
-- [ ] **TASK-2.1**: Implement HTTP GET client wrapper using standard library networking modules (`https` in Node.js, `urllib.request` in Python, or `net/http` in Go).
-- [ ] **TASK-2.2**: Configure required HTTP request headers, specifically setting a custom `User-Agent` string (required by GitHub API guidelines).
-- [ ] **TASK-2.3**: Construct the dynamic request endpoint: `https://api.github.com/users/<username>/events`.
-- [ ] **TASK-2.4**: Buffer and parse incoming stream response into native JSON data structures.
+- [x] **TASK-2.1**: Implement HTTP GET client wrapper using standard library networking modules (`https` in Node.js, `urllib.request` in Python, or `net/http` in Go).
+- [x] **TASK-2.2**: Configure required HTTP request headers, specifically setting a custom `User-Agent` string (required by GitHub API guidelines).
+- [x] **TASK-2.3**: Construct the dynamic request endpoint: `https://api.github.com/users/<username>/events`.
+- [x] **TASK-2.4**: Buffer and parse incoming stream response into native JSON data structures.
 
 ---
 
